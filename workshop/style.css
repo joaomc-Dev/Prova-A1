@@ -1,0 +1,180 @@
+html {
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	height:100%;
+	width: 100%;
+
+	background: linear-gradient(25deg,#333333, #575757, #cecece, #9fe4f4);
+	background-size: 150% 150%;
+	animation: colors 10s ease-in infinite;
+  }
+
+  @keyframes colors {
+	0% {
+	  background-position: 0% 100%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	100% {
+	  background-position: 0% 100%;
+	}
+  }
+  .tituloPrincipal{
+	  font-size: 3em;
+	  color:azure;
+	  position: absolute;
+	  top: 0%;
+	  left: 35%;
+
+  }
+.img1{
+	float: initial;
+    position: absolute;
+    flood-opacity: 70%;
+    width: 100%;
+    height: 200px;
+    top: 73.5%;
+    left: 0%;
+    opacity: 90%;
+}
+.img2{
+	position: absolute;
+    width: 12%;
+    height: 14%;
+    top: 80%;
+    left: 2%;
+    opacity: 90%;
+}
+.textPrin{
+	
+	font-size: 1em;
+    position: absolute;
+    width: 23%;
+    color: white;
+    left: 42%;
+    top: 15%;
+}
+
+
+table{
+	position: absolute;
+	top: 31.5%;
+	left: 41%;
+}
+thead {
+	position: relative;
+	top: 20%;
+	background: #5d5c5f;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	color: aliceblue;
+	margin: 3%;
+	border: 1px solid #ffffff;
+	padding: 8px 15px;
+}
+
+
+.btn1 {
+	position: absolute;
+    display: inline-block;
+    top: 55%;
+    left: 45%;
+    border-radius: 4px;
+    background-color: #5d5c5f;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    height: 39px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.btn1:hover{
+	background: rgb(86, 111, 250);
+	transform: scale(1.2);
+}
+
+
+footer{
+color: #5f60c3;
+}
+.copyright{
+	position:absolute;
+	top: 95%;
+	left: 0.5%;
+	color:whitesmoke;
+	font-size: 1em;
+
+}
+/* style inscrição */
+.caixa {
+	position: relative;
+    width: 940px;
+    margin: 21px auto;
+}
+.input-padrao {
+	display: block;
+    margin: 15px 0 18px;
+    padding: 10px 25px;
+    width: 29.8%;
+}
+
+.checkbox {
+	position: absolute;
+    top: 64%;
+    left: 1%;
+	color: #FFFFFF;
+}
+
+.enviar {
+	position: absolute;
+    top: 56%;
+    width: 33%;
+    padding: 13px 0;
+    background: #5d5c5f;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.home{
+	position: relative;
+    padding: 15px 32px;
+    margin: -246px;
+    background: #5d5c5f;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.home:hover {
+	background: rgb(86, 111, 250);
+	transform: scale(1.2);
+}
+.enviar:hover {
+	background: rgb(86, 111, 250);
+	transform: scale(1.2);
+}
+.text{
+	color: white;
+}
+fieldset{
+	position: absolute;
+    left: 0.5%;
+    width: 31%;
+    height: 9%;
+}
